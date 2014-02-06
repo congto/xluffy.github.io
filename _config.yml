@@ -1,3 +1,36 @@
-name: Chan blog
-markdown: redcarpet
-pygments: true
+title:            Chan
+description:      A Chan's Blog
+url:              http://xluffy.github.io
+paginate:         10
+
+pygments:         true
+permalink:        pretty
+markdown:         rdiscount
+rdiscount:
+  extensions:     [smart]
+
+# Theme specific settings
+theme:            b
+signoff:          Chan's
+facebook_appid:   
+google_analytics: 
+disqus_shortname: 
+
+owner:
+  name:           Chan
+  avatar:         'https://en.gravatar.com/userimage/22864342/d9d93b86fbfe999ef774a841bb6a5683.png?size=200'
+  bio:            ''
+
+links: 
+  - name:         Home
+    url:          /
+  - name:         Categories
+    url:          /categories
+  - name:         About
+    url:          /about
+  - name:         Blog
+    url:          http://xluffy.github.io
+  - name:         Email
+    url:          mailto:me@chan.io
+  - name:         GitHub
+    url:          http://github.com/xluffy
